@@ -1,0 +1,5 @@
+gz service -s /world/empty/create --reqtype gz.msgs.EntityFactory --reptype gz.msgs.Boolean --timeout 1000 --req 'sdf_filename: "/home/meditab/agv_ws/src/hey_agv/urdf/my_dose.urdf", name: "urdf_model"'
+
+
+
+ros2 run ros_gz_bridge parameter_bridge --ros-args -p config_file:=/home/meditab/agv_ws/src/hey_agv/config/ros_gz_bridge.yaml
